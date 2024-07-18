@@ -5,7 +5,7 @@ function createTokens(userInput) {
 }
 
 /*
- 
+
 parses the tokens into a tree node structure. checks the first token in 
 the array and removes it. If the token is an operator, it recursively 
 calls parse on the left and right nodes. If the token is a number, it 
